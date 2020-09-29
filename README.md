@@ -22,7 +22,7 @@ ___
 
 ```css
 p {
-transform: scale(2);
+   transform: scale(2);
 }
 ```
 
