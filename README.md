@@ -237,6 +237,6 @@ ___
 -use tabindex="1,2,3,etc.." to Specify the Order of Keyboard Focus for Several Elements.
 
 ___
+<small id="lastNote"> Last note </small>
 
 ## RESPONSIVE WEB DESIGN PRINCIPLES TOPIC:-
-
