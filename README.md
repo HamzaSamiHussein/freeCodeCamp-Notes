@@ -2,7 +2,25 @@
 
 These notes is from what i see i important on each topic in freeCodeCamp course.
 
+<a href="#lastNote">Last note</a>
+
 ___
+
+## BASIC HTML AND HTML5 TOPIC:-
+
+Link to Internal Sections of a Page with Anchor Elements:-
+
+```html
+<a href="#contacts-header">Contacts</a>
+
+
+<h2 id="contacts-header">Contacts</h2>
+
+```
+
+___
+
+## BASIC CSS TOPIC:-
 
 -z-index
 
@@ -22,7 +40,7 @@ ___
 
 ```css
 p {
-   transform: scale(2);
+    transform: scale(2);
 }
 ```
 
@@ -31,9 +49,9 @@ ___
 -The next function of the transform property is skewX(), which skews the selected element along its X (horizontal) axis by a given degree.
 
 ```css
- p {
-   transform: skewX(-32deg);
- }
+p {
+    transform: skewX(-32deg);
+}
 ```
 
 ___
@@ -48,7 +66,7 @@ box-shadow: 25px 10px 10px 10px green;
 
 ___
 
-- (div::before and div::after) :- These pseudo-elements are used to add something before or after a selected element.
+-(div::before and div::after) :- These pseudo-elements are used to add something before or after a selected element.
 <https://www.youtube.com/watch?v=pGrfemW4dcY>
 
 ___
@@ -136,7 +154,7 @@ ___
 
 ___
 
- -use label for input in form tag ->ex->
+ -Use label for input in form tag ->ex->
 
 ```html
 <form>
@@ -166,7 +184,7 @@ The ```<fieldset>``` tag surrounds the entire grouping of radio buttons to achie
 
 ___
 
--time tag has datetime attribute which  accessed by assistive devices.
+-Time tag has datetime attribute which  accessed by assistive devices.
 It helps avoid confusion by stating a standardized version of a time, even if it's written in an informal or colloquial manner in the text.
 ->ex->
 
@@ -193,7 +211,7 @@ ___
 
 ___
 
-- Screen reader users have different options for what type of content their device reads. This includes :- 1- skipping to (or over) landmark elements. 
+-Screen reader users have different options for what type of content their device reads. This includes :- 1- skipping to (or over) landmark elements. 
   2- jumping to the main content. 
   3- getting a page summary from the headings. 
   4- Another option is to only hear the links available on a page.by reading the link text, or what's between the anchor (a).
@@ -207,7 +225,7 @@ ___
 
 ___
 
-- tabIndex="0,+1,-1", use it in HTML elements to make it important whn users use keyboard navigate through page, use p:focus{} to make  a CSS style when the use focus on the selected element ->ex.->
+-tabIndex="0,+1,-1", use it in HTML elements to make it important whn users use keyboard navigate through page, use p:focus{} to make  a CSS style when the use focus on the selected element ->ex.->
 
 ```html
 <p tabindex="0" >Hamza</p>
@@ -215,4 +233,10 @@ ___
 
 ___
 
+
 -use tabindex="1,2,3,etc.." to Specify the Order of Keyboard Focus for Several Elements.
+
+___
+
+## RESPONSIVE WEB DESIGN PRINCIPLES TOPIC:-
+
