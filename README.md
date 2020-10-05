@@ -57,7 +57,7 @@ p {
 
 ___
 
--use transparent to hide the color of something ->
+-Use transparent to hide the color of something ->
 
 ```css
 background-color: blue;  --> background-color: transparent
@@ -136,16 +136,14 @@ ___
 
 ___
 
-## APPLIED ACCESSIBILITY USING HTML SEMANTIC HTML MARKUP WHO USE ASSISTIVE TECHNOLOGIES TOPIC:-
+## TOPIC:-  APPLIED ACCESSIBILITY WHO USE ASSISTIVE TECHNOLOGIES USING HTML SEMANTIC:-
 
-
--add -alt- to img tag
 -when to use article and section tag
 <https://www.youtube.com/watch?v=Eyndz5R-Vkg>
 
 ___
 
--add audio tags ->ex->
+-Add audio tags ->ex->
 
 ```html
  <audio id="audioClip" controls>
@@ -212,12 +210,16 @@ ___
 
 ___
 
--Screen reader users have different options for what type of content their device reads. This includes :- 1- skipping to (or over) landmark elements. 
-  2- jumping to the main content. 
-  3- getting a page summary from the headings. 
-  4- Another option is to only hear the links available on a page.by reading the link text, or what's between the anchor (a).
+-Screen reader users have different options for what type of content their device reads.
+This includes :-
+1. skipping to (or over) landmark elements. 
+2. jumping to the main content. 
+3. getting a page summary from the headings. 
+4. Another option is to only hear the links available on a page.by reading the link text, or what's between the anchor (a).
 
--use accesskey for buttons a "a" tag to make keyboard-users click these links.
+__
+
+-Use accesskey for buttons "a" tag to make keyboard-users click these links.
 
 ```html
 <a accesskey="g">google</a>
