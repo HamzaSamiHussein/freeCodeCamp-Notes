@@ -1,6 +1,6 @@
 # freeCodeCamp Notes
 
-These notes is from what i see i important on each topic in freeCodeCamp course.
+These notes is from what i see is important on each topic in freeCodeCamp course.
 
 <a href="#lastNote">Last note</a>
 <small> - This link works in the link mentioned in about section **only**</small>
